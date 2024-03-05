@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <meta name="description" content="Blog">
+    <meta name="keywords" content="Mexico, Tokio, LOndres, Paris">
+    <title>Practica 1</title>
+</head>
+<style>
+    header{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 25%;
+    border: 1px #000 solid;
+    color: #000;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    width: 75%;
+    border: 1px #000 solid;
+    overflow-y: scroll;
+}
+
+img{
+    max-width: 150px;
+    max-height: 100%;
+}
+
+.texto{
+    margin-left: 10px;
+}
+p{
+    text-align: justify;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+</style>
+<body>
+    <div class="contenerdor">
+        <header>Galeria de Ciudades</header>
+        <div class="cuerpo">
+            <nav>
+                <ul>
+                    <li><a href="mexico.html">Mexico</a></li>
+                    <li><a href="paris.html">Paris</a></li>
+                    <li><a href="tokio.html">Tokio</a></li>
+                    <li><a href="londres.html">Londres</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                </ul>
+            </nav>
+            <section>
+                <img src="/img/tokio.png" alt="Bandera de México">
+                <div class="texto">
+                    <h1><span>Tokio</span></h1>
+                    <p>En el corazón de Japón, Tokio se erige como una metrópolis que fusiona la tradición con la innovación. Rascacielos futuristas se mezclan con antiguos templos, y los barrios de Harajuku y Shibuya son epicentros de la moda y la cultura juvenil. El Palacio Imperial, rodeado de jardines serenos, ofrece un respiro de la frenética vida urbana.
+
+                        La gastronomía tokiota es una aventura culinaria, desde sushi exquisito hasta ramen reconfortante. Los jardines de cerezos en flor durante la primavera pintan la ciudad de tonalidades suaves, mientras que el distrito de Akihabara es el paraíso para los amantes de la tecnología y el manga.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <footer>Todos los derechos reservados &copy; Huwur Malvados y asocidos</footer>
+    </div>
+</body>
+</html>

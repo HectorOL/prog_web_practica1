@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <meta name="description" content="Blog">
+    <meta name="keywords" content="Mexico, Tokio, LOndres, Paris">
+    <title>Practica 1</title>
+</head>
+<style>
+    header{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 25%;
+    border: 1px #000 solid;
+    color: #000;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    width: 75%;
+    border: 1px #000 solid;
+    overflow-y: scroll;
+}
+
+img{
+    flex-grow: 1;
+    max-width: 150px;
+}
+
+.texto{
+    flex-grow: 2;
+    margin-left: 10px;
+}
+p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+</style>
+<body>
+    <div class="contenerdor">
+        <header>Galeria de Ciudades</header>
+        <div class="cuerpo">
+            <nav>
+                <ul>
+                    <li><a href="mexico.html">Mexico</a></li>
+                    <li><a href="paris.html">Paris</a></li>
+                    <li><a href="tokio.html">Tokio</a></li>
+                    <li><a href="londres.html">Londres</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                </ul>
+            </nav>
+            <section>
+                <img src="/img/mexico.png" alt="Bandera de México">
+                <div class="texto">
+                    <h1><span>Mexico</span></h1>
+                    <p>México, ubicado en la región sur de América del Norte, es un país diverso y vibrante con una rica historia y una cultura colorida. Con una población de más de 120 millones de habitantes, México es conocido por su hospitalidad y tradiciones arraigadas.
+
+                        La geografía mexicana abarca desde playas paradisíacas en la costa hasta majestuosas montañas en el interior. Su capital, Ciudad de México, es una metrópoli bulliciosa que combina la modernidad con monumentos históricos, como el Zócalo y la Catedral Metropolitana.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <footer>Todos los derechos reservados &copy; Huwur Malvados y asocidos</footer>
+    </div>
+</body>
+</html>
