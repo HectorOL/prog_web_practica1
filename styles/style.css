@@ -3,13 +3,23 @@ header{
     height: 100px;
     background-color: #000;
     color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
     text-align: center;
 }
 
+.cuerpo{
+    display: flex;
+}
+
 nav{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    padding: 5px;
     width: 25%;
-    
+    border: 1px #000 solid;
     color: #000;
 }
 
@@ -18,18 +28,35 @@ nav a{
 }
 
 section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
     margin: 0;
-    display:inline-block;
-    width: 74%;
+    width: 75%;
     border: 1px #000 solid;
+    overflow-y: scroll;
+}
+
+.inicio{
+    flex-direction: column;
+}
+
+img{
+    max-width: 150px;
+    max-height: 100%;
+}
+
+.texto{
+    margin-left: 10px;
+}
+p{
+    text-align: justify;
+    height: 100%;
 }
 
 h1{
     text-align: center;
-}
-
-aside{
-    
+    color: red;
 }
 
 footer{
